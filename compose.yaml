@@ -1,0 +1,13 @@
+version: '1'
+services:
+  container1:
+    image: jografia
+    ports:
+      - "8000:8000" # Mapeia a porta 8000 do host para a porta 8000 do container
+    # Outras configurações para container1
+
+  container2:
+    image: criptoelmo
+    ports:
+      - "9000:9000" # Mapeia a porta 9000 do host para a porta 9000 do container
+    # Outras configurações para container2
